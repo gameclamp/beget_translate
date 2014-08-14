@@ -21,7 +21,12 @@
             })
             
             $('#button-1144-btnInnerEl') .html('查看')
-            $('#menuitem-1146-textEl').html('打开')
+            $('#button-1144').click(function(){
+                $('#menuitem-1146-textEl').html('打开')
+                $('#fm-site-list-textEl').html('网站列表')
+                $('#fm-menu-search-textEl').html('搜索')
+            })
+            
             $('#button-1160-btnInnerEl') .html('设置')
             $('#button-1173-btnInnerEl') .html('帮助')
             
